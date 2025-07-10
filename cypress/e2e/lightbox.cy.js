@@ -9,6 +9,7 @@ describe("Composant Chiffre de César", () => {
     cy.get("#lightbox").should("be.visible");
   });
 
+  
   it("should close the lightbox when clicking outside", () => {
     cy.visit("../pages/lightbox.html");
 
