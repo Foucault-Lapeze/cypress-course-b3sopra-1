@@ -8,7 +8,6 @@ describe("Composant Chiffre de César", () => {
     cy.get(".relative img").should("be.visible").click();
     cy.get("#lightbox").should("be.visible");
   });
-
   
   it("should close the lightbox when clicking outside", () => {
     cy.visit("../pages/lightbox.html");
